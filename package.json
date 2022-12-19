@@ -42,11 +42,9 @@
     "access": "public"
   },
   "homepage": "",
-  "bugs": {
-    "url": ""
-  },
   "repository": {
     "type": "git",
     "url": ""
-  }
+  },
+  "main": "index.js"
 }
