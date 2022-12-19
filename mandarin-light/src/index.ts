@@ -6,7 +6,7 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for base16-mexico-light
+ * A plugin for mandarin-light
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'mandarin-light:plugin',

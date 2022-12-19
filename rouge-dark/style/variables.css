@@ -44,14 +44,14 @@
   --jp-layout-color6: #858585;
 
 
-  --jp-inverse-layout-color0: white;
-  --jp-inverse-layout-color1: white;
+  --jp-inverse-layout-color0: rgb(100, 0, 0)
+  --jp-inverse-layout-color1: rgb(100, 0, 0)
   --jp-inverse-layout-color2: var(--md-grey-200);
   --jp-inverse-layout-color3: var(--md-grey-400);
   --jp-inverse-layout-color4: var(--md-grey-600);
   --jp-inverse-layout-color5: #767676;
 
-  --jp-editor-selected-focused-background: #d7d4f0;
+  --jp-editor-selected-focused-background: var(--jp-layout-color2);
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
   /* Elevation
    *
@@ -115,13 +115,13 @@
    *
    * The following variables, specify the visual styling of borders in JupyterLab.
    */
-  --jp-border-width: 2px;
-  --jp-border-color0: var(--jp-layout-color1);
-  --jp-border-color1: var(--jp-layout-color2);
-  --jp-border-color2: rgb(222, 222,222); /*var(--jp-layout-color3);*/
-  --jp-border-color3: var(--jp-layout-color5);
-  --jp-border-radius: 5px;
 
+  --jp-border-width: 1px;
+  --jp-border-color0: #181929; /* #000000;*/ /*var(--md-grey-700);*/
+  --jp-border-color1: #181929; /* border around searhc bar, and general notebook area*/
+  --jp-border-color2: #181929; /*#000000;*/ /*var(--md-grey-800);*/
+  --jp-border-color3: #181929; /*#000000;*/ /*var(--md-grey-900);*/
+  --jp-border-radius: 5px;
 
   /* UI Fonts
    *
@@ -145,19 +145,22 @@
    * In a light theme, these go from dark to light.
    */
   /* Darkening colors */
-  --jp-ui-font-color0: rgba(0, 0, 0, 1);
-  --jp-ui-font-color1: rgba(0, 0, 0, 0.87);
-  --jp-ui-font-color2: rgba(0, 0, 0, 0.54);
-  --jp-ui-font-color3: rgba(0, 0, 0, 0.38);
+  --jp-ui-font-color0: #faf3f3;
+  --jp-ui-font-color1: #faf3f3;
+  --jp-ui-font-color2: #faf3f3;
+  --jp-ui-font-color3: #faf3f3;
+
   /*
    * Use these against the brand/accent/warn/error colors.
    * These will typically go from light to darker, in both a dark and light theme.
    */
-   --jp-ui-inverse-font-color0: rgba(255, 255, 255, 1);
-   --jp-ui-inverse-font-color1: rgba(255, 255, 255, 1);
-   --jp-ui-inverse-font-color2: rgba(255, 255, 255, 0.7);
-   --jp-ui-inverse-font-color3: rgba(255, 255, 255, 0.5);
+   --jp-ui-inverse-font-color0: rgba(168,105,112, 1);/*rgba(0, 0, 0, 1);*/
+   --jp-ui-inverse-font-color1: rgba(168,105,112, 0.8);/*rgba(0, 0, 0, 0.8);*/
+   --jp-ui-inverse-font-color2: rgba(168,105,112, 0.5);/*rgba(0, 0, 0, 0.5);*/
+   --jp-ui-inverse-font-color3: rgba(168,105,112, 0.3); /*rgba(0, 0, 0, 0.3);*/
  
+   --jp-ui-inverse-font-color1: rgba(192, 193, 199);
+
   /* Content Fonts
    *
    * Content font variables are used for typography of user generated content.
@@ -182,12 +185,12 @@
   --jp-content-heading-margin-bottom: 0.8em;
   --jp-content-heading-font-weight: 500;
   /* Shades of the default font color */
-  --jp-content-font-color0: rgba(0, 0, 0, 1);
-  --jp-content-font-color1: rgba(0, 0, 0, 0.87);
-  --jp-content-font-color2: rgba(0, 0, 0, 0.54);
-  --jp-content-font-color3: rgba(0, 0, 0, 0.38);
+  --jp-content-font-color0: #a2a3aa;/*rgba(251, 245, 226, 1);*/
+  --jp-content-font-color1: #a2a3aa;/*rgba(251, 245, 226, 1);*/
+  --jp-content-font-color2: #a2a3aa;/*rgba(251, 245, 226, 0.7);*/
+  --jp-content-font-color3: #a2a3aa;/*rgba(251, 245, 226, 0.5);*/
 
-  --jp-content-link-color: var(--md-blue-700);
+  --jp-content-link-color: #773237; /*var(--md-blue-300);*/
   /* --jp-content-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol'; */
@@ -199,7 +202,7 @@
    *
    * Code font variables are used for typography of code and other monospaces content.
    */
-  --jp-code-font-size: 13px;
+  --jp-code-font-size: 14px;
   --jp-code-line-height: 1.3077;
   /* 17px for 15px base */
   --jp-code-padding: 5px;
@@ -216,7 +219,7 @@
   /*0.107em;*/
   --jp-code-cursor-width1: 3px;
   /*0.154em;*/
-  --jp-code-cursor-width2: 3px;
+  --jp-code-cursor-width2: 5px;
   /*0.308em;*/
   /* Layout
    *

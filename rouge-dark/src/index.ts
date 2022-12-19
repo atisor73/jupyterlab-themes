@@ -9,13 +9,13 @@ import { IThemeManager } from '@jupyterlab/apputils';
  * A plugin for base16-mexico-light
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'rogue-dark:plugin',
+  id: 'rouge-dark:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = '@atisor73/rogue-dark/index.css';
+    const style = '@atisor73/rouge-dark/index.css';
 
     manager.register({
-      name: 'rogue-dark',
+      name: 'rouge-dark',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

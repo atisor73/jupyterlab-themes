@@ -1,14 +1,14 @@
 import { IThemeManager } from '@jupyterlab/apputils';
 /**
- * A plugin for base16-mexico-light
+ * A plugin for frantic-contrast
  */
 const plugin = {
-    id: 'rouge-dark:plugin',
+    id: 'frantic-contrast:plugin',
     requires: [IThemeManager],
     activate: function (app, manager) {
-        const style = '@atisor73/rouge-dark/index.css';
+        const style = '@atisor73/frantic-contrast/index.css';
         manager.register({
-            name: 'rouge-dark',
+            name: 'frantic-contrast',
             isLight: true,
             load: () => manager.loadCSS(style),
             unload: () => Promise.resolve(undefined)

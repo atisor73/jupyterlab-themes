@@ -9,7 +9,7 @@ A JupyterLab theme extension.
 ## Installation
 
 ```bash
-jupyter labextension install base16-mexico-light
+jupyter labextension install mexico-light
 ```
 
 ## Development

@@ -6,8 +6,10 @@ MANIFEST
 ./**/tsconfig.tsbuildinfo
 ./**/package-lock.json
 ./**/packages/theme-*/static
+./**/node_modules
 node_modules
 .cache
 .sass-cache
 
 *.map
+

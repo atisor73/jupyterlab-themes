@@ -6,17 +6,17 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for base16-nord
+ * A plugin for frantic-contrast
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'base16-nord:plugin',
+  id: 'frantic-contrast:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = '@arbennett/base16-nord/index.css';
+    const style = '@atisor73/frantic-contrast/index.css';
 
     manager.register({
-      name: 'base16-nord',
-      isLight: false,
+      name: 'frantic-contrast',
+      isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
     });
