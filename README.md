@@ -1,12 +1,12 @@
 # jupyterlab-themes
 
-The structure for this repo is forked from [arbennett/jupyterlab-themes](https://github.com/arbennett/jupyterlab-themes). I've collected four themes from various places, two light: **mandarin-light** (custom) and **mexico-light** (base-16), and two dark: **frantic-contrast** (rainglow), and **rouge-dark** (rainglow). 
+The structure for this repo is forked from [arbennett/jupyterlab-themes](https://github.com/arbennett/jupyterlab-themes). I've collected and modified four themes from various places, two light: **mandarin-light** (custom) and **mexico-light** (base-16), and two dark: **frantic-contrast** (rainglow), and **rouge-dark** (rainglow). 
 
 
 
 ## Installation
 
-Each theme exists as a separate npm package that can be installed individually. Themes be installed directly via `npm` with the standard way of installing lab extensions:
+Each theme exists as a separate npm package that can be installed via `npm` with the standard way of installing lab extensions:
 
 ```
 jupyter labextension install @atisor73/{$themename}
@@ -14,7 +14,7 @@ jupyter labextension install @atisor73/{$themename}
 
 
 
-You can also install from source. This can be accomplished by running the following comands in a theme's respective subdirectory:
+You can also install from source by running the following comands in a theme's respective subdirectory:
 
 ```
 npm install
@@ -128,3 +128,25 @@ $ jupyter labextension disable base16-nord
 --jp-content-font-family: 'Open Sans', 'Open Sans', BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 ```
 
+
+
+
+
+Other [rainglow](https://rainglow.io/) themes to convert: 
+
+- bold/bold contrast
+- crisp contrast
+- brave contrast
+- comrade light/contrast 
+
+- dare contrast
+- goldfish contrast
+- laracast contrast
+- laravel contrast
+- solarflare contrast
+- stasis contrast
+- tribal contrast
+- turnip contrast
+- tweed contrast
+- vegetable contrast
+- warlock contrast
