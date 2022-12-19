@@ -16,11 +16,15 @@
     "resolveJsonModule": true,
     "rootDir": "src",
     "sourceMap": true,
+    "skipLibCheck": true,
     "strict": true,
     "target": "es2017",
     "types": []
   },
   "include": [
     "src/*"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

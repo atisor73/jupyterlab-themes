@@ -1,6 +1,6 @@
 # jupyterlab-themes
 
-The structure for this repo is forked from [arbennett/jupyterlab-themes](https://github.com/arbennett/jupyterlab-themes). I've chosen four themes, two light: **mandarin-light** (custom) and **mexico-light** (base-16), and two dark: **frantic-contrast** (rainglow), and **rouge-dark** (rainglow). 
+The structure for this repo is forked from [arbennett/jupyterlab-themes](https://github.com/arbennett/jupyterlab-themes). I've collected four themes from various places, two light: **mandarin-light** (custom) and **mexico-light** (base-16), and two dark: **frantic-contrast** (rainglow), and **rouge-dark** (rainglow). 
 
 
 
@@ -26,23 +26,23 @@ jupyter labextension link .
 ## Example screenshots
 
 ### mandarin-light
-![](./screenshots/nord.png "Nord theme screenshot")
+![](./_screenshots/mandarin-light.png "Nord theme screenshot")
 
-### mexican-light
+### mexico-light
 
-![](./screenshots/mexico-light.png "Mexico theme screenshot")
+![](./_screenshots/mexico-light.png "Mexico theme screenshot")
 
 
 
 ### frantic-contrast
 
-![](./screenshots/mexico-light.png "Mexico theme screenshot")
+![](./_screenshots/frantic-contrast.png "Mexico theme screenshot")
 
 
 
 ### rouge-dark
 
-![](./screenshots/mexico-light.png "Mexico theme screenshot")
+![](./_screenshots/rouge-dark.png "Mexico theme screenshot")
 
 
 
@@ -74,7 +74,7 @@ jupyter labextension link .
 
 ```bash
 $ npm install 
-$ npm jupyter labextension link .
+$ jupyter labextension link .
 ```
 
 - Rebuild package and JupyterLab:
@@ -107,5 +107,24 @@ $ npm publish
 
 ```bash
 $ jupyter labextension disable base16-nord
+```
+
+
+
+
+
+**New fonts to consider:**
+
+"Menlo" vs. "Input mono"
+
+```css
+/* previously: */
+--jp-code-font-family-default: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+/* updated: */ 
+--jp-code-font-family-default: Input Mono, Menlo, Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono','Courier New', monospace, serif;
+
+/* personal content preference for Open Sans */
+--jp-content-font-family: 'Open Sans', 'Open Sans', BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 ```
 

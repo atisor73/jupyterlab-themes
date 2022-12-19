@@ -59,7 +59,7 @@
   --jp-layout-color0: #f8f8f8;
   --jp-layout-color1: #eeeeee;
   --jp-layout-color2: #e4e4e4;
-  --jp-layout-color3: #cfcfcf;
+  --jp-layout-color3: #e4e4e4;
   --jp-layout-color4: #a6a6a6;
   --jp-layout-color5: #929292;
   --jp-layout-color6: #7e7e7e;
@@ -131,12 +131,12 @@
    *
    * The following variables, specify the visual styling of borders in JupyterLab.
    */
-  --jp-border-width: 1px;
+  --jp-border-width: 2px;
   --jp-border-color0: var(--jp-layout-color1);
   --jp-border-color1: var(--jp-layout-color2);
   --jp-border-color2: var(--jp-layout-color3);
   --jp-border-color3: var(--jp-layout-color5);
-  --jp-border-radius: 2px;
+  --jp-border-radius: 10px;
   /* UI Fonts
    *
    * The UI font CSS variables are used for the typography all of the JupyterLab
@@ -213,7 +213,7 @@
   /* 17px for 15px base */
   --jp-code-padding: 0.385em;
   /* 5px for 15px base */
-  --jp-code-font-family-default: Input Mono, Consolas, Menlo, Monaco, 'Lucida Console',
+  --jp-code-font-family-default: Menlo, Input Mono, Consolas, Monaco, 'Lucida Console',
     'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
     'Courier New', monospace, serif;
   --jp-code-font-family: var(--jp-code-font-family-default);
@@ -259,7 +259,7 @@
   --jp-info-color3: var(--base16-aqua0);
   /* Cell specific styles */
   --jp-cell-padding: 5px;
-  --jp-cell-collapser-width: 8px;
+  --jp-cell-collapser-width: 10px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
   --jp-cell-editor-background: var(--jp-layout-color1);
