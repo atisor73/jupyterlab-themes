@@ -767,8 +767,8 @@
         "affectsGlobalScope": true
       },
       "./node_modules/csstype/index.d.ts": {
-        "version": "ea0aa24a32c073b8639aa1f3130ba0add0f0f2f76b314d9ba988a5cb91d7e3c4",
-        "signature": "ea0aa24a32c073b8639aa1f3130ba0add0f0f2f76b314d9ba988a5cb91d7e3c4",
+        "version": "1c29793071152b207c01ea1954e343be9a44d85234447b2b236acae9e709a383",
+        "signature": "1c29793071152b207c01ea1954e343be9a44d85234447b2b236acae9e709a383",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/prop-types/index.d.ts": {

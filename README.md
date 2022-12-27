@@ -73,6 +73,7 @@ jupyter labextension link .
 - Development install:
 
 ```bash
+$ cd {theme-name-dir}/
 $ npm install 
 $ jupyter labextension link .
 ```

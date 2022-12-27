@@ -772,8 +772,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/prop-types/index.d.ts": {
-        "version": "6a386ff939f180ae8ef064699d8b7b6e62bc2731a62d7fbf5e02589383838dea",
-        "signature": "6a386ff939f180ae8ef064699d8b7b6e62bc2731a62d7fbf5e02589383838dea",
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/scheduler/tracing.d.ts": {
@@ -1657,13 +1657,13 @@
         "affectsGlobalScope": false
       },
       "./node_modules/typestyle/node_modules/csstype/index.d.ts": {
-        "version": "381899b8d1d4c1be716f18cb5242ba39f66f4b1e31d45af62a32a99f8edcb39d",
-        "signature": "381899b8d1d4c1be716f18cb5242ba39f66f4b1e31d45af62a32a99f8edcb39d",
+        "version": "f9d66b7d0c140496459807082ebe1bd8185a2d7478951881724b708e72fc7386",
+        "signature": "f9d66b7d0c140496459807082ebe1bd8185a2d7478951881724b708e72fc7386",
         "affectsGlobalScope": false
       },
       "./node_modules/typestyle/lib/types.d.ts": {
-        "version": "07e05f7848cbab3cd06298fd5ec3e2c2ac106c6c76b2233d667bd04b49109ed1",
-        "signature": "07e05f7848cbab3cd06298fd5ec3e2c2ac106c6c76b2233d667bd04b49109ed1",
+        "version": "aca6c5506e2023b46af62d650a80e2c3596b7d4d77e8ec82dd9345604230640f",
+        "signature": "aca6c5506e2023b46af62d650a80e2c3596b7d4d77e8ec82dd9345604230640f",
         "affectsGlobalScope": false
       },
       "./node_modules/@jupyterlab/ui-components/lib/style/icon.d.ts": {
@@ -2297,8 +2297,8 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "5a5658a099f32ab983aac22a6dc658278fa99ac7ebf13b1825c9419df1344d9e",
-        "signature": "06154eba15d3dba367b9ccf0c88652131bf5c413b9686cc97079eea795db8604",
+        "version": "327b3b7e09cd586f72656c71cd922a3803def1d1fe48964fdc7b883f53a11a25",
+        "signature": "f69a486b7892956b98c3ecdee4cf8f8d5862bddb315e1a17c8eaa9e5bf230f71",
         "affectsGlobalScope": false
       }
     },
@@ -2318,8 +2318,8 @@
       "preserveWatchOutput": true,
       "resolveJsonModule": true,
       "rootDir": "./src",
-      "skipLibCheck": true,
       "sourceMap": true,
+      "skipLibCheck": true,
       "strict": true,
       "target": 4,
       "types": [],
