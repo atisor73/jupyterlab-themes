@@ -1,6 +1,6 @@
 {
   "name": "@atisor73/jupyterlab-themes",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "JupyterLab light theme extension.",
   "author": "Rosita Fu <rosita.fu@outlook.com>",
   "keywords": [
@@ -19,12 +19,12 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^2.0.0",
-    "@jupyterlab/apputils": "^2.0.0",
-    "@atisor73/mandarin-light": "^0.1.0",
-    "@atisor73/rouge-dark": "^0.1.0",
-    "@atisor73/frantic-contrast": "^0.1.0",
-    "@atisor73/mexico-light": "^0.1.0"
+    "@jupyterlab/application": "^4.0.0",
+    "@jupyterlab/apputils": "^4.0.0",
+    "@atisor73/mandarin-light": "^0.2.1",
+    "@atisor73/rouge-dark": "^0.2.1",
+    "@atisor73/frantic-contrast": "^0.2.1",
+    "@atisor73/mexico-light": "^0.2.1"
   },
   "devDependencies": {
     "rimraf": "~2.6.2",
