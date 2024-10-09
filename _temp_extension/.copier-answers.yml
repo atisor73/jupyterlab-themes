@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: ''
+author_name: Rosita Fu <rosita.fu@outlook.com>
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: '@atisor73/jupyterlab-themes'
+project_short_description: JupyterLab light theme extension.
+python_name: atisor73_jupyterlab_themes
+repository: ''
+test: false
+

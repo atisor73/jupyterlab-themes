@@ -1,6 +1,6 @@
 {
   "name": "@atisor73/mandarin-light",
-  "version": "0.1.6",
+  "version": "0.2.1",
   "description": "A JupyterLab theme extension.",
   "author": "Rosita Fu <rosita.fu@outlook.com>",
   "keywords": [
@@ -30,8 +30,8 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.x.0",
-    "@jupyterlab/apputils": "^3.x.0"
+    "@jupyterlab/application": "^4.x.x",
+    "@jupyterlab/apputils": "^4.x.x"
   },
   "devDependencies": {
     "css-loader": "~0.28.7",
@@ -41,7 +41,7 @@
     "svgo": "~1.0.4",
     "svgo-loader": "~2.1.0",
     "typedoc": "~0.12.0",
-    "typescript": "3.9.2",
+    "typescript": "5.1.6",
     "url-loader": "~1.0.1",
     "watch": "~1.0.2",
     "webpack": "~4.12.0",

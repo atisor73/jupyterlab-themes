@@ -19,17 +19,17 @@
     "watch:webpack": "webpack --watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "^4.0.0",
-    "@jupyterlab/apputils": "^4.0.0",
-    "@atisor73/mandarin-light": "^0.2.1",
-    "@atisor73/rouge-dark": "^0.2.1",
-    "@atisor73/frantic-contrast": "^0.2.1",
-    "@atisor73/mexico-light": "^0.2.1"
+    "@jupyterlab/application": "^4.x.x",
+    "@jupyterlab/apputils": "^4.x.x",
+    "@atisor73/mandarin-light": "^0.2.x",
+    "@atisor73/rouge-dark": "^0.2.x",
+    "@atisor73/frantic-contrast": "^0.2.x",
+    "@atisor73/mexico-light": "^0.2.x"
   },
   "devDependencies": {
     "rimraf": "~2.6.2",
     "typedoc": "~0.12.0",
-    "typescript": "3.9.2",
+    "typescript": "5.1.6",
     "css-loader": "~0.28.7",
     "mini-css-extract-plugin": "~0.4.4",
     "svgo": "~1.0.4",
